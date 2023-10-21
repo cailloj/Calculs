@@ -43,12 +43,13 @@ namespace Calculs
                 }
 
                 // traitement des choix
+                // Création du nombre aléatoires 
+                val1 = rand.Next(1, 10);
+                val2 = rand.Next(1, 10);
                 switch (choix)
                 {
                     case 1:
-                        // choix de l'addition
-                        val1 = rand.Next(1, 10);
-                        val2 = rand.Next(1, 10);
+
                         // saisie de la réponse
                         error = false;
                         while (!error)
@@ -78,9 +79,6 @@ namespace Calculs
                         break;
 
                     case 2:
-                        // choix de la multiplication
-                        val1 = rand.Next(1, 10);
-                        val2 = rand.Next(1, 10);
                         // saisie de la réponse
                         error = false;
                         while (!error)
